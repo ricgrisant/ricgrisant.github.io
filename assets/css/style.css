@@ -81,10 +81,14 @@ html,body
 
 .section-title h2 {
     text-align: center;
-    font-size: 38px;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
     color: #149ddd;
+    text-decoration: underline;
+    text-decoration-color: #78531c;
+    text-decoration-style: wavy;
+    text-decoration-thickness: from-font;
 }
 
 .btn-info {
