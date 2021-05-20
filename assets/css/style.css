@@ -1,0 +1,190 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #001829;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+  }
+
+/* nabvar */
+.navbar{
+    background: #001829 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow:none
+}
+
+.navbar-toggler{
+    background: #149ddd;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 10px;
+    text-align: center; 
+    padding: 0;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+/* hero */
+#rg-hero{
+    height: 100vh;
+    background-image: url(../img/hero-bg.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#rg-hero h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#rg-hero p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+/* About Section */
+#rg-about{
+    height: 100vh;
+}
+
+.img-profile{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 7px 0px #149ddd8a;
+}
+
+.section-title h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #149ddd;
+}
+
+.btn-info {
+    background-color: #001829;
+    border-color: #001829;
+}
+
+.btn-primary{
+    background-color: #149DDD;
+    border-color: #149DDD;
+}
+
+/* skills */
+
+.skills-content{
+    justify-content: center;
+}
+
+.icon-skills{
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* resume */
+
+#rg-resume{
+    height: 40vh;
+    color: white;
+    background: #001829;
+}
+
+.btn-download-pdf{
+    background-color: #149DDD;
+    border-color: #149DDD;
+    box-shadow: 0px 6px 8px 0px #000000;
+}
+
+footer{
+    background: #001829;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+/* portfolio */
+#rg-portfolio{
+    height: 100vh;
+}
+
+.portfolio-content{
+    justify-content: center;
+}
+
+.card{
+    padding: 1rem;
+    border-radius: 0.6rem;
+    width: auto !important;
+    box-shadow: 1px 1px 8px 1px #212529a1;
+    margin: 1rem;
+}
+
+ul.tech-inventory>li{
+    width: 33%;
+    float: left;
+}
+
+.card-img-top{
+    padding: 1rem;
+    background: white;
+    border-radius: 0.6rem;
+    height: 15rem;
+}
+
+.btn-info-projects{
+    background-color: #001829;
+    border-color: #001829;
+}
+
+.modal-content {
+    box-shadow: 0px 0px 11px #149ddd;
+    color: white;
+    background-color: #001829;
+    border-radius: 1rem;
+}
+
+.modal-header,.modal-footer{
+    border-bottom: none;
+    border-top: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    #rg-about,#rg-skills,#rg-resume,#rg-portfolio{
+        height: 100%;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    #rg-portfolio{
+        height: 100%;
+    }
+  }
