@@ -187,7 +187,7 @@ ul.tech-inventory>li{
 }
 
 /* Responsive */
-@media (max-width: px) {
+@media (max-width: 720px) {
 
     #rg-about,#rg-skills,#rg-resume,#rg-portfolio{
         height: 100%;
