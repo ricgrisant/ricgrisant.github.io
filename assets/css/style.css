@@ -70,7 +70,7 @@ html,body
 
 /* About Section */
 #rg-about{
-    height: 100vh;
+    height: 100%;
 }
 
 .img-profile{
@@ -187,7 +187,7 @@ ul.tech-inventory>li{
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: px) {
 
     #rg-about,#rg-skills,#rg-resume,#rg-portfolio{
         height: 100%;
