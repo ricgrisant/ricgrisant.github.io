@@ -95,6 +95,10 @@ body {
 
 /* skills */
 
+.rg-skills{
+    height: 100vh;   
+}
+
 .skills-content{
     justify-content: center;
 }
