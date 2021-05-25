@@ -200,3 +200,9 @@ ul.tech-inventory>li{
         height: 100%;
     }
   }
+
+  @media (min-width: 1050px){
+      #rg-hero{
+        height: 130vh;
+      }
+  }
